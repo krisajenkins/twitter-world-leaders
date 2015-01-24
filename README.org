@@ -1,0 +1,13 @@
+* Haskell Twitter World Leaders
+
+90 minutes worth of experimental hacking to determine who is the most important person on twitter for a given search term.
+
+Coded for West London Hack Night January 2015. We didn't get terribly far, but there are lots of Nix scripts here... :-}
+
+** Running
+
+Add your credentials into src/Main.hs then call =cabal run=.
+
+...or under nix:
+
+Call =nix-shell --command 'cabal run'=.
